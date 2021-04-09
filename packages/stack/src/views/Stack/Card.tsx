@@ -415,7 +415,7 @@ export default class Card extends React.Component<Props> {
 
     if (gestureDirection === 'vertical') {
       return {
-        maxDeltaX: 15,
+        maxDeltaX: 5,
         minOffsetY: 5,
         hitSlop: { bottom: -layout.height + distance },
       };
